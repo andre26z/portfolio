@@ -93,7 +93,7 @@ export function ContactForm() {
           <CheckCircle2 className="h-4 w-4 text-green-600" />
           <AlertTitle>Message Sent Successfully!</AlertTitle>
           <AlertDescription>
-            Thank you for your message. I&apos;ll get back to you as soon as
+            Thank you for your message. I'll get back to you as soon as
             possible.
           </AlertDescription>
         </Alert>

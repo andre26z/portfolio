@@ -34,7 +34,7 @@ export function Hero() {
             className="flex flex-col items-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-              Hi, I&apos;m Andre Santos
+              Hi, I'm Andre Santos
             </h1>
             <p className="mt-6 text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl">
               Software Engineer | Frontend Developer | Solving problems with code since 2019

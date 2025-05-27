@@ -4,20 +4,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import {
-  Brain,
-  Cloud,
   Code,
   Building2,
-  GraduationCap,
-  Award,
-  Sparkles,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { certifications } from "@/data/certifications";
 import { experiences} from "@/data/experience";
-import { education } from "@/data/education";
-import { hobbies } from "@/data/hobbies";
 import { skillCategories } from "@/data/skills";
 
 export function AboutDetail() {
