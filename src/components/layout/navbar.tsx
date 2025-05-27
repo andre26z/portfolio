@@ -51,13 +51,7 @@ export function Navbar() {
             >
               Blog
             </Link> */}
-            <NavSeparator />
-            <Link
-              href="/contact"
-              className="text-foreground/60 hover:text-foreground"
-            >
-              Contact
-            </Link>
+  
             <NavSeparator />
             <ThemeToggle />
           </div>
@@ -96,13 +90,6 @@ export function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Projects
-              </Link>
-              <Link
-                href="/contact"
-                className="text-foreground/60 hover:text-foreground"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
               </Link>
               <div className="flex items-center">
                 <ThemeToggle />

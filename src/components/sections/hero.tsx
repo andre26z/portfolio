@@ -40,12 +40,7 @@ export function Hero() {
               Software Engineer | Frontend Developer | Solving problems with code since 2019
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-              >
-                Get in Touch
-              </Link>
+             
               <Link
                 href="/projects"
                 className="inline-flex h-12 items-center justify-center rounded-lg border border-input bg-background px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"

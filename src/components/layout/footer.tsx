@@ -39,12 +39,6 @@ export function Footer() {
               >
                 Blog
               </Link> */}
-              <Link
-                href="/contact"
-                className="text-sm text-foreground/60 hover:text-foreground"
-              >
-                Contact
-              </Link>
             </nav>
           </div>
 
