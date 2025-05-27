@@ -14,7 +14,7 @@ export default function ContactPage() {
           <h1 className="text-3xl font-bold tracking-tighter">Contact Me</h1>
           <p className="text-muted-foreground">
             Have a question or want to get in touch? Fill out the form below and
-            I'll get back to you as soon as possible.
+            I&apos;ll get back to you as soon as possible.
           </p>
         </div>
         <ContactForm />

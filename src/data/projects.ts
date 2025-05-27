@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
 		id: '2',
 		title: 'Wordle - BR Version',
 		description:
-			'A Brazilian version of the famous Wordle game built with Vue.js and Pinia. Fully localized and optimized for performance. this project showcases my skills in Vue.js and state management with Pinia and the ability to deal with problems since I had to take all the most used words of the brazilian language to be able to create this project.',
+			'A Brazilian version of the famous Wordle game built with Vue.js and Pinia. Fully localized and optimized for performance. this project showcases my skills in Vue.js and state management with Pinia and the ability to deal with problems since I had to take all the most used words of the brazilian language to be able to create.',
 		image: '/projects/wordle-br.png', // replace with actual image if available
 		technologies: ['Vue.js', 'Pinia'],
 		category: 'Games',
