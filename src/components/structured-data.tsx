@@ -5,7 +5,7 @@ export function generatePersonSchema() {
     name: "Andre Santos",
     jobTitle: "Front-end Developer",
     description:
-      "I'm a frontend developer with over 6 years of experience in building, maintaining, and optimizing web applications across diverse industries. My expertise spans iGaming platforms, gambling sites, ecommerce solutions, and complex legacy monolith systems. From creating responsive UIs to solving complex development challenges, I strive to deliver high-quality, scalable solutions. I've worked with both startups and established companies, developing MVPs and building projects from scratch through to deployment for both national and international clients. I'm fluent in Portuguese and English, enabling me to collaborate effectively with global teams and clients.",
+      "I&#39;m a frontend developer with over 6 years of experience in building, maintaining, and optimizing web applications across diverse industries. My expertise spans iGaming platforms, gambling sites, ecommerce solutions, and complex legacy monolith systems. From creating responsive UIs to solving complex development challenges, I strive to deliver high-quality, scalable solutions. I've worked with both startups and established companies, developing MVPs and building projects from scratch through to deployment for both national and international clients. I&#39;m fluent in Portuguese and English, enabling me to collaborate effectively with global teams and clients.",
   };
 }
 
