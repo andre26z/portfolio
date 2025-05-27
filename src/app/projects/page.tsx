@@ -3,9 +3,9 @@ import { ProjectGrid } from "@/components/projects/project-grid";
 import { projectsData } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Projects - Bjorn Melin",
+  title: "Projects - Andre Santos",
   description:
-    "Explore my portfolio of projects in machine learning and AI, cloud architecture, and web development.",
+    "Explore my portfolio of projects frontend development.",
 };
 
 export default function ProjectsPage() {
@@ -16,9 +16,7 @@ export default function ProjectsPage() {
           Projects
         </h1>
         <p className="text-xl text-muted-foreground">
-          A collection of projects showcasing my work in machine learning and
-          AI, cloud architecture, and web development. As well as open source
-          contributions.
+        A collection of projects showcasing my work in frontend development, using the most advanced tools and technologies in the field.
         </p>
       </div>
       <div className="mt-16">

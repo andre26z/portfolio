@@ -20,8 +20,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Bjorn Melin",
-    default: "Bjorn Melin - Senior Data Scientist & Cloud Solutions Architect",
+    template: "%s | Andre Santos",
+    default: "Andre Santos - Senior Data Scientist & Cloud Solutions Architect",
   },
   description:
     "Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML, GenAI innovation, cloud architecture, and modern development.",
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    title: 'Bjorn Melin - Senior Data Scientist & Cloud Solutions Architect',
+    title: 'Andre Santos - Senior Data Scientist & Cloud Solutions Architect',
     description: 'Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML, GenAI innovation, cloud architecture, and modern development.',
     images: [{
       url: '/screenshots/hero-preview.png',
       width: 1200,
       height: 630,
-      alt: 'Bjorn Melin - Portfolio Hero Section'
+      alt: 'Andre Santos - Portfolio Hero Section'
     }]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bjorn Melin - Senior Data Scientist & Cloud Solutions Architect',
+    title: 'Andre Santos - Senior Data Scientist & Cloud Solutions Architect',
     description: 'Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML, GenAI innovation, cloud architecture, and modern development.',
     images: ['/screenshots/hero-preview.png']
   },
@@ -89,8 +89,8 @@ export const metadata: Metadata = {
     "Full-Stack Development",
     "Cloud Computing",
   ],
-  authors: [{ name: "Bjorn Melin" }],
-  creator: "Bjorn Melin",
+  authors: [{ name: "Andre Santos" }],
+  creator: "Andre Santos",
 };
 
 export default function RootLayout({

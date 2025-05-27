@@ -24,12 +24,11 @@ export function About() {
             About Me
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Crafting AI Solutions &{" "}
-            <span className="text-primary">Cloud Architecture</span>
+            Building Seamless UX &{" "}
+            <span className="text-primary">Modern Frontend Solutions</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Senior Data Scientist and AWS Solutions Architect specializing in
-            AI/ML innovations and scalable cloud architecture
+          <p className="text-lg text-muted-foreground max-w-xl mx-auto">
+            Senior Frontend Developer passionate about crafting performant, accessible interfaces using cutting-edge technologies like React, Vue, and Tailwind CSS. Focused on delivering intuitive user experiences and scalable design systems.
           </p>
         </div>
 
@@ -44,11 +43,7 @@ export function About() {
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              As a Senior Data Scientist and Cloud Solutions Architect with 6
-              AWS certifications, I specialize in developing cutting-edge AI/ML
-              solutions and GenAI innovations. My expertise spans cloud
-              architecture, machine learning, and building scalable AI solutions
-              that drive business value.
+            I'm a frontend developer with over 6 years of experience in building, maintaining, and optimizing web applications across diverse industries. My expertise spans iGaming platforms, gambling sites, ecommerce solutions, and complex legacy monolith systems. From creating responsive UIs to solving complex development challenges, I strive to deliver high-quality, scalable solutions. I've worked with both startups and established companies, developing MVPs and building projects from scratch through to deployment for both national and international clients. I'm fluent in Portuguese and English, enabling me to collaborate effectively with global teams and clients
             </p>
           </Card>
 

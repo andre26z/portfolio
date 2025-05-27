@@ -2,38 +2,10 @@ export function generatePersonSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Bjorn Melin",
-    url: "https://bjornmelin.com",
-    jobTitle: "Senior Data Scientist & Cloud Solutions Architect",
+    name: "Andre Santos",
+    jobTitle: "Front-end Developer",
     description:
-      "Senior Data Scientist and Cloud Solutions Architect specializing in neuro-symbolic AI, deep learning, and MLOps. AWS Machine Learning Engineer and 6x AWS Certified professional with expertise in cloud architecture, AI engineering, and modern development practices.",
-    sameAs: [
-      "https://github.com/bjornmelin",
-      "https://linkedin.com/in/bjornmelin",
-      "https://orcid.org/0000-0003-3891-5522",
-      "https://www.coursera.org/learner/bjorn-melin",
-    ],
-    knowsAbout: [
-      "Neuro-symbolic AI",
-      "Deep Learning",
-      "Reinforcement Learning",
-      "Machine Learning Engineering",
-      "AWS Cloud Architecture",
-      "Serverless Computing",
-      "MLOps",
-      "Data Science",
-      "Full Stack Development",
-      "Python Development",
-      "TensorFlow & PyTorch",
-      "LangChain & Vector Databases",
-      "CI/CD & Infrastructure as Code",
-      "Kubernetes & Docker",
-      "Next.js & React Development",
-      "Node.js Development",
-      "Statistical Modeling",
-      "Clustering & Dimensionality Reduction",
-      "Innovation & Cloud Computing",
-    ],
+      "I'm a frontend developer with over 6 years of experience in building, maintaining, and optimizing web applications across diverse industries. My expertise spans iGaming platforms, gambling sites, ecommerce solutions, and complex legacy monolith systems. From creating responsive UIs to solving complex development challenges, I strive to deliver high-quality, scalable solutions. I've worked with both startups and established companies, developing MVPs and building projects from scratch through to deployment for both national and international clients. I'm fluent in Portuguese and English, enabling me to collaborate effectively with global teams and clients.",
   };
 }
 
@@ -41,13 +13,12 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Bjorn Melin - Portfolio",
-    url: "https://bjornmelin.com",
+    name: "Andre Santos - Portfolio",
     description:
-      "Personal portfolio of Bjorn Melin, Senior Data Scientist and AWS Machine Learning Engineer specializing in neuro-symbolic AI, deep learning, and cloud architecture.",
+      "Personal portfolio of Andre Santos, frontend developer since 2019.",
     author: {
       "@type": "Person",
-      name: "Bjorn Melin",
+      name: "Andre Santos",
     },
   };
 }

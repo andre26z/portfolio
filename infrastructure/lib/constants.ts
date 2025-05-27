@@ -1,18 +1,17 @@
 export const CONFIG = {
-  dev: {
-    domainName: "dev.bjornmelin.io",
-    environment: "dev" as const,
-  },
-  prod: {
-    domainName: "bjornmelin.io",
-    environment: "prod" as const,
-  },
-  tags: {
-    Project: "Portfolio",
-    ManagedBy: "CDK",
-    Owner: "Bjorn Melin",
-  },
+	dev: {
+		domainName: 'dev.bjornmelin.io',
+		environment: 'dev' as const,
+	},
+	prod: {
+		domainName: 'bjornmelin.io',
+		environment: 'prod' as const,
+	},
+	tags: {
+		Project: 'Portfolio',
+		ManagedBy: 'CDK',
+		Owner: 'Andre Santos',
+	},
 };
 
-export const getStackName = (stackType: string, env: string) =>
-  `${env}-portfolio-${stackType}`;
+export const getStackName = (stackType: string, env: string) => `${env}-portfolio-${stackType}`;
