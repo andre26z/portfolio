@@ -19,6 +19,44 @@ export interface Experience {
 
 export const experiences: Experience[] = [
 	{
+		title: 'Lead Software Engineer',
+		company: 'TestPilot CPG',
+		location: 'United States',
+		startDate: 'Mar 2025',
+		endDate: 'Jan 2026',
+		isRemote: true,
+		achievements: [
+			{
+				text: 'Engineered and launched the TestPilot MVP, a platform featuring self-hosted, simulated retail environments that tracked real user shopping behaviors to generate actionable market insights.',
+			},
+			{
+				text: 'Architected pixel-perfect consumer-facing simulations, leveraging the OpenAI API and OpenAPI standards to transform raw user testing data into automated, company-specific strategic insights.',
+			},
+			{
+				text: 'Created the system architecture and participated in the design system of the application.',
+			},
+			{
+				text: 'Integrated robust APIs and workflow tools including Stripe, Amazon, TikTok Shop, Walmart, Adaline, N8N, and Google Cloud to automate processes and enhance overall project functionality.',
+			},
+			{
+				text: 'Collaborated on sales pitches and technical demonstrations, effectively showcasing platform capabilities and value propositions to prospective clients.',
+			},
+		],
+		skills: [
+			{ name: 'React' },
+			{ name: 'Next.js' },
+			{ name: 'PHP' },
+			{ name: 'Laravel' },
+			{ name: 'Supabase' },
+			{ name: 'Tailwind CSS' },
+			{ name: 'N8N' },
+			{ name: 'OpenAI API' },
+			{ name: 'Stripe' },
+			{ name: 'Google Cloud' },
+			{ name: 'AI Integration' },
+		],
+	},
+	{
 		title: 'Frontend Developer',
 		company: 'Cometa Gaming',
 		location: 'Remote',

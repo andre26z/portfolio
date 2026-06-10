@@ -61,7 +61,8 @@ export function AboutDetail() {
              <p> I have been working as a frontend developer since 2019, and I have extensive experience in various areas of frontend development, such as website creation, legacy code maintenance, and developing projects from scratch to deployment using the latest market technologies.
              </p>
              <p>
-              My Stack: Vue.js, Nuxt, React, Next.js Tailwind, PHP, Laravel, Javascript, Bootstrap, Vuetify, Docker, Git, Git flow, API REST, Web development, problem solving, bug solving, mongodb, wordpress, figma,, Jquery, Sass, Css3, HTML5, MYSQL, Cypress, AWS, Google Cloud. </p>
+              My stack includes React, Next.js, Tailwind CSS, PHP, Laravel, JavaScript, Bootstrap, Vue.js, Nuxt, Vuetify, Docker, Git, Git Flow, RESTful APIs, MongoDB, WordPress, Figma, jQuery, Sass, CSS3, HTML5, MySQL, Cypress, AWS, Google Cloud, AI integration &amp; automation, N8N, Adaline, Supabase, Firebase, TanStack, and many others.
+             </p>
             </div>
           </Card>
         </motion.div>
