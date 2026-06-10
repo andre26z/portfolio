@@ -13,9 +13,12 @@ interface ProjectCardProps {
 export function ProjectCard({ project, className }: ProjectCardProps) {
   return (
     <div
-      className={cn("bg-card rounded-lg shadow-lg overflow-hidden", className)}
+      className={cn(
+        "bg-card rounded-lg shadow-lg overflow-hidden flex flex-col p-4 gap-4",
+        className
+      )}
     >
-      <div className="relative h-48">
+      <div className="relative aspect-[16/10] w-full overflow-hidden rounded-md shrink-0">
         <Image
           src={project.image}
           alt={project.title}
@@ -24,22 +27,24 @@ export function ProjectCard({ project, className }: ProjectCardProps) {
           className="object-cover transition-transform hover:scale-105 duration-300"
         />
       </div>
-      <div className="p-6 space-y-4">
+      <div className="flex flex-col flex-1 gap-3">
         <div>
-          <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+          <h3 className="text-xl font-semibold mb-1.5">{project.title}</h3>
           {project.featured && (
-            <div className="inline-block rounded-full bg-primary/10 px-2 py-1 text-xs text-primary mb-2">
+            <div className="inline-block rounded-full bg-primary/10 px-2 py-1 text-xs text-primary mb-1.5">
               Featured Project
             </div>
           )}
-          <p className="text-muted-foreground">{project.description}</p>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            {project.description}
+          </p>
         </div>
         <div className="flex flex-wrap gap-2">
           {project.technologies.map((tech) => (
             <TechBadge key={tech} name={tech} size="sm" />
           ))}
         </div>
-        <div className="flex gap-4 pt-2">
+        <div className="flex gap-4 mt-auto">
           {project.links.github && (
             <Button variant="outline" asChild>
               <Link

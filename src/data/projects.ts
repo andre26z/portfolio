@@ -2,6 +2,30 @@ import { Project } from '@/types/project';
 
 export const projectsData: Project[] = [
 	{
+		id: '6',
+		title: 'Meetharu.chat',
+		description:
+			'My attempt to revive that nostalgic feeling we experienced back then. Available in mobile and desktop versions.',
+		image: '/projects/haru.png',
+		technologies: [
+			'React',
+			'Vite',
+			'JavaScript',
+			'CSS',
+			'Cloudflare Workers',
+			'Durable Objects',
+			'Gemini AI',
+			'Web Audio API',
+			'SSE Streaming',
+			'Wrangler',
+		],
+		category: 'Web Development',
+		links: {
+			live: 'https://meetharu.chat/',
+		},
+		featured: true,
+	},
+	{
 		id: '1',
 		title: 'Network Graph Visualization Application',
 		description:
@@ -31,7 +55,7 @@ export const projectsData: Project[] = [
 		links: {
 			live: 'https://termofree.vercel.app/',
 		},
-		featured: false,
+		featured: true,
 	},
 	{
 		id: '3',
@@ -51,7 +75,7 @@ export const projectsData: Project[] = [
 		links: {
 			live: 'https://pokemon-this-is-a-challenge-by-coodesh.vercel.app/',
 		},
-		featured: false,
+		featured: true,
 	},
 	{
 		id: '4',
@@ -64,7 +88,7 @@ export const projectsData: Project[] = [
 		links: {
 			live: 'https://roastmysteam.vercel.app/',
 		},
-		featured: false,
+		featured: true,
 	},
 	{
 		id: '5',
@@ -77,6 +101,6 @@ export const projectsData: Project[] = [
 		links: {
 			live: 'https://react-timeline-component-teal.vercel.app/',
 		},
-		featured: false,
+		featured: true,
 	},
 ];
